@@ -1,0 +1,41 @@
+# mate.js - TextMate Utilities for CommonJS Programming
+
+mate.js is a set of utilities that make it easier to write CommonJS code with
+TextMate.  This is early in development but currently there is:
+
+## seed mate 
+
+"seed" plugin will automatically locate one or more packages and open them in
+TextMate.  Just type:
+
+	seed mate package_foo package_bar
+	
+You can also name paths, in which case the tool will walk up the chain and 
+find a nearest package to open.
+
+## NOT YET IMPLEMENTED
+
+Here are some other cool ideas to implement:
+
+## mate#install
+
+This module can be invoked to automatically install a TextMate bundle from 
+within your package.  Just invoke it like so:
+
+var mate = require('mate');
+mate.install('path/to/bundle');
+
+This will copy the bundle to the proper location then tell TextMate to reload
+its bundles.
+
+Seeds can use this in their install script to add bundles automatically.
+
+
+## mate TextMate Bundle
+
+Port over CommonJS-aware jslint tool - run it automatically.  Include some 
+shortcuts, etc.
+
+
+
+

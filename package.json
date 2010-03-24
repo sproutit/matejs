@@ -1,0 +1,9 @@
+{
+  "name": "mate",
+  "description": "TextMate utilities for JavaScript",
+  "version": "0.1.0",
+  
+  "seed-commands": {
+    "mate":  "mate:mate_command"
+  }
+}
