@@ -3,6 +3,11 @@
   "description": "TextMate utilities for JavaScript",
   "version": "0.1.1",
   
+  "dependencies": {
+    "seed": "0.3.0",
+    "core-support": "0.2.0"
+  },
+  
   "seed:commands": {
     "mate":  "mate:mate_command"
   }
